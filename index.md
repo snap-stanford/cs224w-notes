@@ -7,7 +7,7 @@ title: Contents
 
 You too may help make these notes better by submitting your improvements to us via [GitHub](https://github.com/ermongroup/cs228-notes). Note that submitting substantial improvements will result in *bonus points* being added to your overall grade!
 
-Starting with the Fall 2019 offering of CS 224W, the course covers four broad topic areas for understanding and effectively learning representations from large-scale networks: preliminaries, network methods, and machine learning with networks. Subtopics within each area correspond to individual lecture topics. 
+Starting with the Fall 2019 offering of CS 224W, the course covers three broad topic areas for understanding and effectively learning representations from large-scale networks: preliminaries, network methods, and machine learning with networks. Subtopics within each area correspond to individual lecture topics. 
 
 ## Preliminaries
 
