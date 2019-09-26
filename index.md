@@ -5,7 +5,7 @@ title: Contents
 <span class="newthought">These notes</span> form a concise introductory course on machine learning with large-scale graphs. They mirror the topics topics covered by Stanford [CS224W](https://cs224w.stanford.edu), and are written by the CS 224W TAs. 
 {% include marginnote.html id='mn-construction' note='The notes are still under construction! They will be written up as lectures continue to progress. If you find any typos, please let us know, or submit a pull request with your fixes to our [GitHub repository](https://github.com/snap-stanford/cs224w-notes).'%}
 
-You too may help make these notes better by submitting your improvements to us via [GitHub](https://github.com/ermongroup/cs228-notes). Note that submitting substantial improvements will result in *bonus points* being added to your overall grade!
+You too may help make these notes better by submitting your improvements to us via [GitHub](https://github.com/snap-stanford/cs224w-notes). Note that submitting substantial improvements will result in *bonus points* being added to your overall grade!
 
 Starting with the Fall 2019 offering of CS 224W, the course covers three broad topic areas for understanding and effectively learning representations from large-scale networks: preliminaries, network methods, and machine learning with networks. Subtopics within each area correspond to individual lecture topics. 
 

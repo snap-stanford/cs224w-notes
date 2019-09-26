@@ -1,13 +1,12 @@
 baseurl: /cs224w-notes
-title: Course on machine learning with graphs
-subtitle: Lecture notes for Stanford CS 224W.
-author: Manan Shah
+title: Course on Machine Learning with Graphs
+subtitle: Lecture Notes for Stanford CS224W.
 simple_search: http://google.com/search
-description: LLecture notes for Stanford CS 224W.
+description: Lecture Notes for Stanford CS224W.
 name: cs224w-notes
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
-timezone: America/New_York
+timezone: America/Los_Angeles
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 post:
