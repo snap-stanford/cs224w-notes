@@ -1,10 +1,10 @@
-baseurl: /cs228-notes
-title: Probabilistic graphical modeling course
-subtitle: Lecture notes for Stanford cs228.
-author: Volodymyr Kuleshov
+baseurl: /cs224w-notes
+title: Course on machine learning with graphs
+subtitle: Lecture notes for Stanford CS 224W.
+author: Manan Shah
 simple_search: http://google.com/search
-description: Lecture notes for Stanford cs228.
-name: cs228-notes
+description: LLecture notes for Stanford CS 224W.
+name: cs224w-notes
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
 timezone: America/New_York
