@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction
+title: Introduction and Graph Structure
 ---
 We begin by motivating the study of graph representations of data, or networks. Networks form a general language for desribing complex systems of interacting entities. Pictorially, rather than thinking that our dataset consists of a set of isolated data points, we consider interactions and relationships between these points.
 
@@ -41,7 +41,7 @@ $$\bar{k} = \langle k \rangle = \frac{\vert E \vert}{N}$$
 
 {% include marginnote.html id='note-bipartite-folded' note='Here, projection $$U$$ connects nodes in $$U$$ if they share at least one neighbor in $$V$$. The same process is applied to obtain projection $$V$$.' %}
 
-![bipartite-folded](../assets/img/introduction_bipartite_folded.png)
+![bipartite-folded](../assets/img/introduction_bipartite_folded.png?style=centerme)
 
 **Other Graph Types**. We briefly note that graphs can also include self-edges (self-loops), weights associated with edges, and multiple edges connecting nodes. These attributes can be encoded in graph representations with ease.
 
@@ -72,8 +72,8 @@ We call an undirected graph $$G$$ **connected** if there is a path between any p
 We can further extend these concepts to directed graphs by definining a **strongly connected** directed graph as one which has a path from each node to every other node and vice versa (e.g. a path $$A \to B$$ and $$B \to A$$). A **weakly connected** directed graph is connected if we disregard the edge directions. We further define **strongly connected components** (SCCs) as strongly connected subgraphs of $$G$$. Nodes that can reach the SCC are part of its in-component, and nodes that can be reached from the SCC are part of its out-component.
 
 The graph below is connected but not strongly connected. It contains one SCC (the graph $$G' = G[A, B, C]$$ induced on nodes A, B, and C).
-![directed-graph](../assets/img/introduction_directed_graph.png)
+![directed-graph](../assets/img/introduction_directed_graph.png?style=centerme)
 
 <br/>
 
-|[Index](../) | [Previous](../) | [Next](../)|
+|[Index](../) | [Previous](../) | [Next](./measuring-networks-random-graphs)|
