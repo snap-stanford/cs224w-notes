@@ -25,6 +25,11 @@ nav_exclude: true
 
 */
 
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
+
 // global resets
 *, *:before, *:after {
     margin: 0;
