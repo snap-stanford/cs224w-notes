@@ -6,7 +6,7 @@ In this section, we will begin by introducing the defination of subgraphs. Subne
 
 For example, in Figure 1 we show all the non-isomorphic directed subgraphs of size 3. These subgraphs differ from each other in the number of edges or direction of edges. 
 
-![binom-dist](../assets/img/binom_dist_graph.png?style=centerme)
+![Figure 1](../assets/img/Subgraphs_example.png?style=centerme)
 
 ### Motifs
 
