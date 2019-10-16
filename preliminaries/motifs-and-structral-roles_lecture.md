@@ -59,11 +59,12 @@ We can consider roles as functions of nodes in a network which can be measured b
 ### Structural equivalence
 We say nodes u and v are structurally equivalent if they have the same relationships to each other. Structurally equivalent nodes are likely to be similar in many different ways. For example, node u and v are structurally equivalent in Figure 4 since they connect other nodes in the same way.
 
-![Figure 4](../assets/img/Exact_Subgraph_Enumeration.png?style=centerme)
+![Figure 4](../assets/img/structurally_equivalent.png?style=centerme)
 
 ### RoIX
 Roles allow us to identify different properties of nodes in network. Here we will introduce an automatic structural roles discovery method called RolX. It's an unsupervised learning approach without prior knowledge. Figure 5 is the RoIX approach overview.
 
+![Figure 5](../assets/img/RoIX.png?style=centerme)
 
 ### Recursive Feature Extraction
 The basic idea of recursive feature extraction is to aggregate features of a node and use them to generate new recursive features. By this way we can turn network connectivity into structural features. 
