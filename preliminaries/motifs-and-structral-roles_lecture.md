@@ -6,6 +6,8 @@ In this section, we will begin by introducing the defination of subgraphs. Subne
 
 For example, in Figure 1 we show all the non-isomorphic directed subgraphs of size 3. These subgraphs differ from each other in the number of edges or direction of edges. 
 
+![test](https://github.com/microLizzy/cs224w-notes/tree/notesLiz/assets/img/Exact_Subgraph_Enumeration.png)
+
 ### Motifs
 
 Network motifs are recurring, significant patterns of interconnections in the network. Here, pattern means it is small induced subgraph. Note induced subgraph of graph G is a graph formed from a subset X of the vertices of graph G and all of the edges connecting pairs of vertices in subset X. 
