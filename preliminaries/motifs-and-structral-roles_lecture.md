@@ -5,8 +5,6 @@ header-includes:
    - \usepackage{amsmath}
 ---
 
-# Motifs and Structral Rules in Network
-
 ## Subgraphs
 
 In this section, we will begin by introducing the defination of subgraphs. Subnetworks, or subgraphs, are the building blocks of networks which enable us to characterize and discriminate networks.
