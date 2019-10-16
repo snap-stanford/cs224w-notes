@@ -48,7 +48,7 @@ Just knowing if a certain subgraph exists in a graph is a hard computational pro
 Exact Subgraph Enumeration (ESU) Algorithm involves two sets,  while $V_{subgraph}$ contains nodes in currently constructed subgraph, and $V_{extension}$ is a set of candidate nodes to extend the motif.  The basic idea of ESU is firstly starting with a node v, then adding nodes u to $V_{extension}$ set when u's node id is larger than that of v, and u may only be neighbored to some newly added node w but not of any node already in $V_{subgraph}$. 
 
 ESU is implemented as a recursive function, Figure 3 shows the pseudocode of this algorithm:
-** Figure**
+![Figure 3](../assets/img/Exact_Subgraph_Enumeration.png?style=centerme)
 
 ## Structural Roles in Networks
 
@@ -57,10 +57,13 @@ ESU is implemented as a recursive function, Figure 3 shows the pseudocode of thi
 We can consider roles as functions of nodes in a network which can be measured by structural behaviors. Note roles are different from groups/communities. Roles are based on the similarity of ties between subsets of nodes. Nodes with the same role have similar structural properties, but they don't need to be in direct or even indirect interaction with each other. Group/community is formed based on adjacency, proximity or reachability, nodes in the same community are well-connected to each other.
 
 ### Structural equivalence
-We say nodes u and v are structurally equivalent if they have the same relationships to each other. Structurally equivalent nodes are likely to be similar in many different ways. For example, node u and v are structurally equivalent in Figure # since they connect other nodes in the same way.
+We say nodes u and v are structurally equivalent if they have the same relationships to each other. Structurally equivalent nodes are likely to be similar in many different ways. For example, node u and v are structurally equivalent in Figure 4 since they connect other nodes in the same way.
+
+![Figure 4](../assets/img/Exact_Subgraph_Enumeration.png?style=centerme)
 
 ### RoIX
 Roles allow us to identify different properties of nodes in network. Here we will introduce an automatic structural roles discovery method called RolX. It's an unsupervised learning approach without prior knowledge. Figure 5 is the RoIX approach overview.
+
 
 ### Recursive Feature Extraction
 The basic idea of recursive feature extraction is to aggregate features of a node and use them to generate new recursive features. By this way we can turn network connectivity into structural features. 
