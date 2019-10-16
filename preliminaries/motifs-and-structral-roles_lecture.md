@@ -1,3 +1,10 @@
+---
+layout: post
+title: Motifs and Structral Rules in Network
+header-includes:
+   - \usepackage{amsmath}
+---
+
 # Motifs and Structral Rules in Network
 
 ## Subgraphs
