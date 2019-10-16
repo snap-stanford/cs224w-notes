@@ -33,7 +33,7 @@ Configuration model is a random graph with a given degree sequence $k_1$, $k_2$,
 
 Another way for generation is as following:
 1) start from a given graph G;
-2) select a pair of edges A->B, C->D at random, exchange the endpoints to give A->D, C->B, repeat the switching step Q* \vert E \vert times.
+2) select a pair of edges A->B, C->D at random, exchange the endpoints to give A->D, C->B, repeat the switching step Q* $\vert$ E $\vert$ times.
 
 By this way, we will get a randomly rewired graph with same node degrees and randomly rewired edges.
 
