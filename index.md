@@ -13,7 +13,7 @@ Starting with the Fall 2019 offering of CS 224W, the course covers three broad t
 
 1. [Introduction and Graph Structure](preliminaries/introduction-graph-structure): Basic background for graph structure and representation
 2. [Measuring Networks and Random Graphs](preliminaries/measuring-networks-random-graphs): Network properties, random graphs, and small-world networks
-3. [Motifs and Graphlets](): Motifs, graphlets, orbits, ESU
+3. [Motifs and Graphlets](preliminaries/motifs-and-structral-roles_lecture): Motifs, graphlets, orbits, ESU
 
 ## Network Methods
 
