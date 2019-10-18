@@ -19,20 +19,20 @@ Network motifs are recurring, significant patterns of interconnections in the ne
 Recurrence of motif represents it occurs with high frequency. We allow overlapping of motifs.
 
 Significance of a motif means it is more frequent than expected. The key idea here is we say subgraphs that occur in a real network much more often than in a random network have functional significance. Significance can be measured using Z-score which is defined as: \begin{equation} Z_{i} = \frac{N_{i}^{real} - \overline N_{i}^{rand}}{std(N_{i}^{rand})} \end{equation} <br>
-where $N_{i}^{real}$ is #(subgraphs of type i) in network $G^{real}$ and $N_{i}^{rand}$ is #(subgraphs of type i) in randomized network $G^{rand}$.
+where $$N_{i}^{real}$$ is #(subgraphs of type i) in network $$G^{real}$$ and $$N_{i}^{rand}$$ is #(subgraphs of type i) in randomized network $$G^{rand}$$.
 
 Network significance profile (SP) is defined as: \begin{equation} SP_{i} = \frac{Z_{i}}{\sqrt{\sum_{j} {Z_j^{2}}}}  \end{equation} where SP is a vector of normalized Z-scores.
 
 ### Configuration Model
 
-Configuration model is a random graph with a given degree sequence $k_1$, $k_2$, ..., $k_N$ which can be used as a "null" model and then compared with real network. Configuration model can be generated in an easy way as shown in Figure 2. 
+Configuration model is a random graph with a given degree sequence $$k_1$$, $$k_2$$, ..., $$k_N$$ which can be used as a "null" model and then compared with real network. Configuration model can be generated in an easy way as shown in Figure 2. 
 
 ![Figure 2](../assets/img/Configuration_Model.png?style=centerme)
 
 
 Another way for generation is as following:
 1) start from a given graph G;
-2) select a pair of edges A->B, C->D at random, exchange the endpoints to give A->D, C->B, repeat the switching step Q* $\vert$ E $\vert$ times.
+2) select a pair of edges A->B, C->D at random, exchange the endpoints to give A->D, C->B, repeat the switching step Q* $$\vert$$ E $$\vert$$ times.
 
 By this way, we will get a randomly rewired graph with same node degrees and randomly rewired edges.
 
@@ -49,7 +49,7 @@ Finding size-k motifs/graphlets requires us:
 Just knowing if a certain subgraph exists in a graph is a hard computational problem. Also, computation time grows exponentially as the size of the motif/graphlet increases.
 
 ### ESU Algorithm
-Exact Subgraph Enumeration (ESU) Algorithm involves two sets,  while $V_{subgraph}$ contains nodes in currently constructed subgraph, and $V_{extension}$ is a set of candidate nodes to extend the motif.  The basic idea of ESU is firstly starting with a node v, then adding nodes u to $V_{extension}$ set when u's node id is larger than that of v, and u may only be neighbored to some newly added node w but not of any node already in $V_{subgraph}$. 
+Exact Subgraph Enumeration (ESU) Algorithm involves two sets,  while $$V_{subgraph}$$ contains nodes in currently constructed subgraph, and $$V_{extension}$$ is a set of candidate nodes to extend the motif.  The basic idea of ESU is firstly starting with a node v, then adding nodes u to $$V_{extension}$$ set when u's node id is larger than that of v, and u may only be neighbored to some newly added node w but not of any node already in $$V_{subgraph}$$. 
 
 ESU is implemented as a recursive function, Figure 3 shows the pseudocode of this algorithm:
 ![Figure 3](../assets/img/Exact_Subgraph_Enumeration.png?style=centerme)
