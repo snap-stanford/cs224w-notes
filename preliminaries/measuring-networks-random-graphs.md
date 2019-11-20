@@ -273,7 +273,7 @@ $$y = 1 \cdot 2^{3-1} + 0 \cdot 2^{3-2} + 1 \cdot 2^{3-3} = 1 \cdot 2^2 + 0 \cdo
 
 Hence, we add edge $$(3,5)$$ to the graph.
 
-In practice, the stochastic Kronecker graph model is able to generate graphs that match the properties of real world networks well. To read more about the Kronecker Graph models, refer to *J Leskovec et al., Kronecker Graphs: An Approach to Modeling Networks (2010)*.{% include sidenote.html id='note-graphnetwork' note='Estimating the initator matrice $\Theta_1$ and fitting Kronecker Graphs to real world networks is also discussed in this work.'%}
+In practice, the stochastic Kronecker graph model is able to generate graphs that match the properties of real world networks well. To read more about the Kronecker Graph models, refer to *J Leskovec et al., Kronecker Graphs: An Approach to Modeling Networks (2010)*.{% include sidenote.html id='note-graphnetwork' note='Estimating the initator matrice $$\Theta_1$$ and fitting Kronecker Graphs to real world networks is also discussed in this work.'%}
 
 
 <br/>
