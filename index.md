@@ -22,7 +22,7 @@ Starting with the Fall 2019 offering of CS 224W, the course covers three broad t
 3. [Influence Maximization](): Influential sets, submodularity, hill climbing
 4. [Outbreak Detection](): CELF, lazy hill climbing
 5. [Link Analysis](): PageRank and SimRank
-6. [Network Effects and Cascading Behavior](): Decision-based diffusion, probabilistic contagion, SEIZ
+6. [Network Effects and Cascading Behavior](network-methods/network-effects-and-cascading-behavior): Decision-based diffusion, probabilistic contagion, SEIZ
 7. [Network Robustness](): Power laws, preferential attachment
 8. [Network Evolution](): Densification, forest fire, temporal networks with PageRank
 9. [Knowledge Graphs and Metapaths](): Metapaths, reasoning and completion of KGs
