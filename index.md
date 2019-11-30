@@ -31,6 +31,6 @@ Starting with the Fall 2019 offering of CS 224W, the course covers three broad t
 ## Machine Learning with Networks
 
 1. [Message Passing and Node Classification](): Label propagation and collective classification
-2. [Node Representation Learning](): Shallow, DeepWalk, TransE, node2vec, and t-SNE
+2. [Node Representation Learning](machine-learning-with-networks/node-representation-learning): Shallow, DeepWalk, TransE, node2vec
 3. [Graph Neural Networks](): GCN, SAGE, GAT
 4. [Generative Models for Graphs](): Variational Autoencoders, GraphRNN, Molecule GAN
