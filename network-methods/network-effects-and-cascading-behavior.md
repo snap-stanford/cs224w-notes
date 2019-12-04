@@ -5,7 +5,7 @@ header-includes:
    - \usepackage{amsmath}
 ---
 
-In this section, we study how a infection propages through a network. We will look into two classed of model, namely decision based models and probabilistic models. But first lets look at some terminology used throughout the post.
+In this section, we study how a infection propagates through a network. We will look into two classed of model, namely decision based models and probabilistic models. But first lets look at some terminology used throughout the post.
 
 **Terminology**
 1. Cascade: Propagation tree created by spreading contagion
