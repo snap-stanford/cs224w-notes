@@ -22,3 +22,5 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
+
+theme: jekyll-theme-cayman
