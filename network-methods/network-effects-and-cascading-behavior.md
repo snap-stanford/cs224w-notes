@@ -4,7 +4,7 @@ title: Network Effects And Cascading Behaviour
 header-includes:
    - \usepackage{amsmath}
 ---
-
+The phenomenon of spreading through networks and cascading behaviors is prevalent in a wide range of real networks.  Examples include contagion of diseases, cascading failure of technologies, diffusion of fake news, and viral marketing.  Formally, an “infection” event can spread contagion along main players (active/infected nodes) which constitute a propagation tree, known as a cascade.
 In this section, we study how a infection propagates through a network. We will look into two classed of model, namely decision based models and probabilistic models. But first lets look at some terminology used throughout the post.
 
 **Terminology**
