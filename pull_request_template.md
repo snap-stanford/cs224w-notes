@@ -1,1 +1,0 @@
-As a contribution to the CS224W course notes, I have created notes surrounding the lecture around Message Passing and Node Classification. I sought to incorporate both information from the slides and information from lecture. I hope over time this will serve as a good resource to othre students. Please see the preview here: https://benjaminangulo.github.io/cs224w-notes/ .
